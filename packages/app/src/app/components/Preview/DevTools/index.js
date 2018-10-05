@@ -38,7 +38,7 @@ function normalizeTouchEvent(event: TouchEvent): MouseEvent {
 }
 
 const PANES = {
-  [console.title]: console,
+  // [console.title]: console,
   [problems.title]: problems,
   [tests.title]: tests,
   [terminal.title]: terminal,

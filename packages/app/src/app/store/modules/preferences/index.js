@@ -17,6 +17,7 @@ export default Module({
       fontFamily: 'Dank Mono',
       lineHeight: 1.5,
       clearConsoleEnabled: true,
+      consoleEnabled: true,
       autoDownloadTypes: true,
       codeMirror: false,
       keybindings: [],

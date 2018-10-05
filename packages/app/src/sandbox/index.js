@@ -78,6 +78,7 @@ requirePolyfills().then(() => {
     sendReady();
 
     setupHistoryListeners();
+    debug('hheheheehehehe');
     setupConsole();
   }
 

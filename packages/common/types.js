@@ -166,6 +166,7 @@ export type Preferences = {
   fontSize: ?number,
   fontFamily: ?string,
   clearConsoleEnabled: ?boolean,
+  consoleEnabled: ?boolean,
   prettierConfig: Object,
   autoDownloadTypes: ?boolean,
   newPackagerExperiment: ?boolean,

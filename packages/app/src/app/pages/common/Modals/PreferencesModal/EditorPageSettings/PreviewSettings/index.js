@@ -37,6 +37,13 @@ function PreviewSettings({ store, signals }) {
           </SubDescription>
           <Rule />
           <PaddedPreference
+            title="Console"
+            type="boolean"
+            {...bindValue('consoleEnabled')}
+          />
+          <SubDescription>Not use virtual console</SubDescription>
+          <Rule />
+          <PaddedPreference
             title="Clear console"
             type="boolean"
             {...bindValue('clearConsoleEnabled')}
